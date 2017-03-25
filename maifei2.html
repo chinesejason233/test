@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>菲麦前端</title>
+	<style type="text/css">
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #a87b4f;
+    text-decoration: none;
+}
+.w {
+    /*版心 提取 */
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+/*nav开始*/
+.nav {
+	display: flex;
+	height: 120px;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-logo img {
+	width: 65px;
+	height: 78px;
+}
+.nav-site {
+	width: 413px;
+	height: 60px;
+}
+.nav-site a {
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+}
+/*nav结束*/
+/*bannaer开始*/
+.banner {
+	display: flex;
+	height: 300px;
+	background: #a87b4f;
+}
+	
+.top-banner {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.banner-right img {
+	width: 200px;
+	height: 200px;
+}
+/*banner结束*/
+/*main-content开始*/
+.main-content {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	
+
+}
+.main-left {
+	width: 740px;
+	
+	
+}
+.main-right {	
+	width: 200px;
+	height: 100px;
+	margin: 60px 0 0 20px;
+	
+}
+.right-item {
+	margin-bottom: 20px;
+}
+.top-title {
+	height: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	color: #a87b4f;
+	border-bottom: solid 1px #aaa;
+}
+.one {
+	background: url(images/tel.png) no-repeat right ;
+	background-size: 100px 100px;
+}
+.two {
+	background: url(images/jiantou.jpg) no-repeat right;
+	background-size: 100px 100px;
+}
+.three {
+	background: url(images/yemian.png) no-repeat right;
+	background-size: 100px 100px;
+}
+.article-item {
+	height: 150px;
+	border-bottom: dashed 1px #aaa;
+	/*background: url(tel.png) no-repeat right ;*/
+	/*background-size: 100px 100px;*/
+}
+.article-item h2 {
+	width: 550px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px 0;
+}
+.article-item p {
+	width: 550px;
+	height: 60px;
+}
+.case {
+	
+	/*height: 352px;*/
+	border-bottom: dashed 1px #aaa;
+}
+.case-item {
+	display: flex;
+	width: 740px;
+	height: 300px;
+	margin: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.case-item-block {
+	width: 200px;
+	height: 200px;
+	background: url(images/banner5.jpg) ;
+	background-size: 100%;
+	border-radius: 150px;
+	line-height: 200px;
+	text-align: center;
+}
+.tools{
+	width: 740px;
+	/*background: red;*/
+	border-bottom: dashed 1px #aaa;
+}
+.tools-item {
+	display: flex;
+	width: 740px;
+	height: 300px;
+	/*background: blue;*/
+	align-items: center;
+	justify-content: space-between;
+}
+.tools-item1  {
+	width: 200px;
+	height: 200px;
+	border: solid 1px #aaa;
+	background: #f0f0f0;
+	text-align: center;
+	line-height: 200px;
+}
+
+	</style>
+
+</head>
+<body>
+<!-- nav开始 -->
+<div class="w nav">
+	<div class="nav-logo">
+		<img src="images/maifei.png" alt="">
+	</div>
+	<div class="nav-site">
+		<a href="#">主页</a>
+		<a href="#">博客</a>
+		<a href="#">案例</a>
+		<a href="#">关于</a>
+	</div>	
+</div>
+<!-- nav结束 -->
+<!-- banner开始 -->
+<div class="banner">
+	<div class="top-banner">
+		<div class="banner-left">
+			<img src="images/banner.gif" alt="">
+		</div>
+		<div class="banner-right">
+			<img src="images/erweima.jpg" alt="">
+		</div>
+	</div>	
+</div>
+<!-- banner结束	 -->
+<!-- main-content开始 -->
+<div class="main-content">
+	<div class="main-left">
+		<div class="article">
+			<div class="top-title">
+				<p>热门文章>></p>
+			</div>
+			<div class="one article-item">
+				<h2>从零打造在线版H5页面生成器</h2>
+				<p>想必你一定使用过易企秀或其它微场景生成工具制作过炫酷的h5页面，除了感叹其神奇之处有没有想过其实现方式呢？从设计者的角度来看待问题，会有不一样的收获，本文将从零开始...</p>
+			</div>
+			<div class="two article-item">
+				<h2>前端性能优化的三个维度</h2>
+				<p>前端性能优化可以分为三个level：静态资源优化、接口访问优化、页面渲染速度优化，在操控门槛上依次递增，优化效果上越发没有这么明显，所以很多小团队只会做到了第一个level...</p>
+			</div>
+			<div class="three article-item">
+				<h2>node入门场景之——爬虫</h2>
+				<p>边做边学效率更高，爬虫是node的适用场景之一，关于爬虫的另一篇文章node爬虫进阶之——登录
+				  为了验证“经验总结、资料归集类技术文章更容易上热榜”的猜想，可以做一个爬虫：爬取...</p>
+			</div>
+		</div>
+		<div class="case">
+			<div class="top-title">
+				<p>案例展示>></p>
+			</div>
+			<div class="case-item">
+				<div class="case-item-block"><h2>菲麦前端</h2></div>
+				<div class="case-item-block"><h2>菲麦前端</h2></div>
+				<div class="case-item-block"><h2>菲麦前端</h2></div>
+			</div>	
+		</div>
+		<div class="tools">
+			<div class="top-title">
+				工具平台>>
+			</div>
+				<div class="tools-item">
+					<div class="tools-item1">
+						<a href="#">....</a>				
+					</div>
+					<div class="tools-item1">
+						<a href="#">....</a>
+					</div>
+					<div class="tools-item1">
+						<a href="#">....</a>
+					</div>
+				</div>	
+		</div>
+	</div>
+	<div class="main-right">
+		<div class="right-item">
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+		</div>
+		<div class="right-item">
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+			<p>一心磨一技，十年奠根基</p>
+		</div>
+	</div>
+<!-- main-content结束 -->
+</div>
+</body>
+</html>
