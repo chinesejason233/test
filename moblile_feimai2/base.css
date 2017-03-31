@@ -17,6 +17,7 @@ a {
     /*background: red;*/
 }
 .nav-logo img {
+    padding-left: 20px;
     width: 65px;
     height: 78px;
 }
@@ -24,7 +25,8 @@ a {
     display: flex;
 }
 .nav-title-item {
-    width: 70px;
+    /*width: 70px;*/
+    padding-right: 20px;
     height: 60px;
     color: #a87b4f;
     font-size: 20px;
@@ -36,8 +38,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 300px;
+    /*width: 100%;*/
+    height: 200px;
     background: #a87b4f;
 }
 .banner img {
@@ -48,24 +50,21 @@ a {
 /*banner结束*/
 /*content开始*/
 .content {
-    width: 100%;
-}
-.main-content {
-    width: 100%;
-    height: 150px;
-    /*background: orange;*/
-    background: url("images/01.jpg") no-repeat right;
-    background-size: 100px 100px;
+    display: flex;
+    align-items: flex-start;
+    /*justify-content: space-between;*/
+    padding: 10px 13px;
     border-bottom: dashed 1px #aaa;
 }
-.left-content {
-    width: 75%;
+.content-text-title {
+    padding-right: 10px;
+    font-size: 18px;
 }
-.left-content h2{
-    margin-top: 10px;
+.content p {
+    padding: 10px 10px 20px 0px;
+    /*padding-bottom: 20px;*/
 }
-.left-content p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 20px;
+.content-img img {
+    height: 100px;
+    width: 100px;
 }
